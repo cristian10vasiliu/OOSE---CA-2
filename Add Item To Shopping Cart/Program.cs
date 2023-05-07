@@ -31,8 +31,9 @@ namespace Add_Item_To_Shopping_Cart
             Product p5 = new Product(29, "Coffe table", "Light Chesnut coffe table", 400);
             Product p6 = new Product(30, "Blue-Ray", "James Bond : Die Another Day", 11);
 
-
+            //display the number of products in the cart
             Console.Write("\n\nThe shoping cart contains {0}  products", cart.ProductList.Count);
+            
             //add products to the shoping cart
             cart.AddProductToCart(p1);
             cart.AddProductToCart(p2);
@@ -48,7 +49,6 @@ namespace Add_Item_To_Shopping_Cart
 
 
             //display the total price of the cart
-
             Console.Write("\n\nThe shoping cart contains {0} products", cart.ProductList.Count);
             Console.Write("\nThe total price of customer shopping cart is {0}", cart.GetCartPrice());
 

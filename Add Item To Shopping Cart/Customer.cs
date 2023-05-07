@@ -8,6 +8,7 @@ namespace Add_Item_To_Shopping_Cart
 {
     public class Customer
     {
+        //instance variables
         private string FirstName;
         private string LastName;
         private string Email;

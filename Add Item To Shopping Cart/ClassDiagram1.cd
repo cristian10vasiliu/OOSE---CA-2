@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Add_Item_To_Shopping_Cart.Customer">
+    <Position X="5" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAAAAAAAAQAAAAAgAAAAAAAAAAAAAAQg=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Add_Item_To_Shopping_Cart.ShoppingCart">
+    <Position X="1.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAEAAAEAAAAAAAACAAAAAAAAAEAQEAAAAAAAAQFCAA=</HashCode>
+      <FileName>ShoppingCart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Add_Item_To_Shopping_Cart.Product">
+    <Position X="4.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAAAAAAAAAAAAAAAAAgAABAAAAAAAAAAAAAAAIAAE=</HashCode>
+      <FileName>Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

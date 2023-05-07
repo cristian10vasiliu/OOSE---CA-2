@@ -21,6 +21,7 @@ namespace Add_Item_To_Shopping_Cart
             this.ProductPrice = PP;
         }
 
+        //getters
         public int GetProductPrice()
         {
             return this.ProductPrice;

@@ -8,14 +8,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Add_Item_To_Shopping_Cart.ShoppingCart">
-    <Position X="1.25" Y="1.5" Width="1.5" />
+    <Position X="1.25" Y="1.5" Width="2.5" />
     <TypeIdentifier>
       <HashCode>BAAEAAAEAAAAAAAACAAAAAAAAAEAQEAAAAAAAAQFCAA=</HashCode>
       <FileName>ShoppingCart.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Add_Item_To_Shopping_Cart.Product">
-    <Position X="4.5" Y="6.25" Width="1.5" />
+    <Position X="4.5" Y="6.25" Width="2.25" />
     <TypeIdentifier>
       <HashCode>EIAAAAAAAAAAAAAAAAAAgAABAAAAAAAAAAAAAAAIAAE=</HashCode>
       <FileName>Product.cs</FileName>

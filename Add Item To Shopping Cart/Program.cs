@@ -15,7 +15,6 @@ namespace Add_Item_To_Shopping_Cart
             //create an object Customer
             Customer customer1 = new Customer("Daniel", "Craig", "dc007@gmail.com", "0035388745007", 7);
 
-
             //create a Shopping Cart object and make custumer1 the owner
             ShoppingCart cart = new ShoppingCart(customer1);
 
@@ -46,7 +45,6 @@ namespace Add_Item_To_Shopping_Cart
 
             //remove a product
             cart.RemoveProductFromCart(p6);
-
 
             //display the total price of the cart
             Console.Write("\n\nThe shoping cart contains {0} products", cart.ProductList.Count);

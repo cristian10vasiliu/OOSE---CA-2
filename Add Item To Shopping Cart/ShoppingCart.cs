@@ -25,14 +25,12 @@ namespace Add_Item_To_Shopping_Cart
 
         }
 
-       
-
-
         //getters
         public Customer GetCustomer()
         {
             return this.CartOwner;
         }
+
         public int GetCartID()
         {
             return this.CartID;
@@ -42,6 +40,7 @@ namespace Add_Item_To_Shopping_Cart
         {
             return this.CartPrice;
         }
+
         //add a product to the shopping cart
         //call the caculate price
         public void AddProductToCart(Product product)

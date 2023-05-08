@@ -31,7 +31,8 @@ namespace Add_Item_To_Shopping_Cart
             Product p6 = new Product(30, "Blue-Ray", "James Bond : Die Another Day", 11);
 
             //display the number of products in the cart
-            Console.Write("\n\nThe shoping cart contains {0}  products", cart.ProductList.Count);
+            Console.Write("\n\nEmpty Shopping cart");
+            Console.Write("\nThe shopping cart contains {0}  products", cart.ProductList.Count);
             
             //add products to the shoping cart
             cart.AddProductToCart(p1);
@@ -40,14 +41,16 @@ namespace Add_Item_To_Shopping_Cart
 
             //display the total price of the cart
 
-            Console.Write("\n\nThe shoping cart contains {0}  products", cart.ProductList.Count);
+            Console.Write("\n\nShopping cart and total price after adding products");
+            Console.Write("\nThe shopping cart contains {0}  products", cart.ProductList.Count);
             Console.Write("\nThe total price of customer shopping cart is {0}", cart.GetCartPrice());
 
             //remove a product
             cart.RemoveProductFromCart(p6);
 
             //display the total price of the cart
-            Console.Write("\n\nThe shoping cart contains {0} products", cart.ProductList.Count);
+            Console.Write("\n\nShopping cart and total price after removing products");
+            Console.Write("\nThe shopping cart contains {0} products", cart.ProductList.Count);
             Console.Write("\nThe total price of customer shopping cart is {0}", cart.GetCartPrice());
 
 

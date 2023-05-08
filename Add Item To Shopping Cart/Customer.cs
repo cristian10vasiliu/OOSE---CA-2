@@ -15,6 +15,17 @@ namespace Add_Item_To_Shopping_Cart
         private string PhoneNumber;
         private int AccountNumber;
 
+        
+        //constructor with five parameters
+        public Customer(string firstName, string lastName, string email, string phoneNumber, int accountNumber)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+            Email = email;
+            PhoneNumber = phoneNumber;
+            AccountNumber = accountNumber;
+        }
+
         //method to display the customer info
         public void CustomerInfo()
         {
@@ -25,14 +36,6 @@ namespace Add_Item_To_Shopping_Cart
             Console.Write("Customer First Name:  {0} \nCustomer Last Name: {1} \nCustomer Phone Number: {2} \nCustomer Email: {3} \nAccount Number: {4}", FirstName, LastName, PhoneNumber, Email, AccountNumber);
         }
 
-        //constructor with five parameters
-        public Customer(string firstName, string lastName, string email, string phoneNumber, int accountNumber)
-        {
-            FirstName = firstName;
-            LastName = lastName;
-            Email = email;
-            PhoneNumber = phoneNumber;
-            AccountNumber = accountNumber;
-        }
     }
+
 }

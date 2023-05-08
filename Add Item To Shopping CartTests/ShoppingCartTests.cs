@@ -42,7 +42,8 @@ namespace Add_Item_To_Shopping_Cart.Tests
 
             //we add a new value to the total price, and we test if it is added to the initial total price
             testCart.AddProductPrice(500);
-            Assert.AreEqual(initialCartTotal + 500, testCart.GetCartPrice());
+            testCart.AddProductPrice(500);
+            Assert.AreEqual(initialCartTotal + 1000, testCart.GetCartPrice());
         }
 
         [TestMethod()]

@@ -19,7 +19,7 @@ namespace Add_Item_To_Shopping_Cart
             ShoppingCart cart = new ShoppingCart(customer1);
 
             //display the cart owner info
-            Console.Write("\n\nThe owner of the shoping cart {0} is:\n", cart.GetCartID());
+            Console.Write("\n\nThe owner of the shopping cart {0} is:\n", cart.GetCartID());
             cart.GetCustomer().CustomerInfo();
 
             //create a few products objects

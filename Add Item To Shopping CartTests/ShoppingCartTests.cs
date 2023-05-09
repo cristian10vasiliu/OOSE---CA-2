@@ -28,6 +28,7 @@ namespace Add_Item_To_Shopping_Cart.Tests
             //first we check if the array is not null, then we check if just one product is added in the cart 
             Assert.IsNotNull(testCart.ProductList);
             Assert.AreEqual(initialArraySize + 1, testCart.ProductList.Count);
+            
 
         }
 
@@ -55,7 +56,7 @@ namespace Add_Item_To_Shopping_Cart.Tests
             Product p2 = new Product(25, "TV", "42 inch Qled tv", 800);
 
             testCart.AddProductToCart(p1);
-            testCart.AddProductToCart(p1);
+            testCart.AddProductToCart(p2);
 
             //initial number of products in the shopping cart
             int initialArraySize = testCart.ProductList.Count;

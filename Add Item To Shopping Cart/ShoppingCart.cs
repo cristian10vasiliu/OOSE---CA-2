@@ -41,15 +41,15 @@ namespace Add_Item_To_Shopping_Cart
             return this.CartPrice;
         }
 
-        //add a product to the shopping cart
-        //call the caculate price
+        //add a product to the shopping cart, will add a product to the list of products 
+        //will call the AddProductPrice method, and add the price of the product to the shopping cart total
         public void AddProductToCart(Product product)
         {
             this.ProductList.Add(product);
             AddProductPrice(product.GetProductPrice());
         }
 
-        //calculate the shopping cart total
+        //add to the shopping cart total
         public void AddProductPrice(int price)
         {
             CartPrice += price;
@@ -62,6 +62,7 @@ namespace Add_Item_To_Shopping_Cart
             SubtractProductPrice(product.GetProductPrice());
         }
 
+        //remove the price of the product from the shopping cart total
         public void SubtractProductPrice(int price)
         {
             this.CartPrice -= price;

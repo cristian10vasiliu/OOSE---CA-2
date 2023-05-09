@@ -19,7 +19,7 @@ namespace Add_Item_To_Shopping_Cart.Tests
             ShoppingCart testCart = new ShoppingCart(null);
             Product p1 = new Product(25, "TV", "56 inch Qled tv", 2200);
 
-            //initial count of the products 
+            //local variable to hold the initial count of the products 
             int initialArraySize = testCart.ProductList.Count;
 
             //add one product
@@ -42,8 +42,7 @@ namespace Add_Item_To_Shopping_Cart.Tests
 
             //we add a new value to the total price, and we test if it is added to the initial total price
             testCart.AddProductPrice(500);
-            testCart.AddProductPrice(500);
-            Assert.AreEqual(initialCartTotal + 1000, testCart.GetCartPrice());
+            Assert.AreEqual(initialCartTotal + 500, testCart.GetCartPrice());
         }
 
         [TestMethod()]
